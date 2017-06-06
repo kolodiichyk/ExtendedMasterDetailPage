@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<MasterDetailPage
+    x:Class="ExtendedMasterDetailPage.RootPage"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:extendedMasterDetailPage="clr-namespace:ExtendedMasterDetailPage;assembly=ExtendedMasterDetailPage">
+
+    <MasterDetailPage.Master>
+        <extendedMasterDetailPage:MenuPage Title="Menu" />
+    </MasterDetailPage.Master>
+    <MasterDetailPage.Detail>
+        <extendedMasterDetailPage:MainPage Title="Main" />
+    </MasterDetailPage.Detail>
+
+</MasterDetailPage>
