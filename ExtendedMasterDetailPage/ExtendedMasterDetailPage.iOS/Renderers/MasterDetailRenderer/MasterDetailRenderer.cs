@@ -4,7 +4,6 @@ using System.ComponentModel;
 using System.Linq;
 using ExtendedMasterDetailPage.iOS.Renderers.MasterDetailRenderer;
 using ExtendedMasterDetailPage.Services;
-using Pickpack.iOS.Renderers.MasterDetailRenderer;
 using UIKit;
 using Xamarin.Forms;
 using Xamarin.Forms.Platform.iOS;
@@ -15,7 +14,7 @@ namespace ExtendedMasterDetailPage.iOS.Renderers.MasterDetailRenderer
 {
 	public class MasterDetailRenderer : PhoneMasterDetailRenderer
 	{
-		private bool _disposed;
+	    private bool _disposed;
 
 		private bool _isRightToLeft => DependencyService.Get<ILocalizeService>().IsRightToLeft;
 
@@ -31,11 +30,9 @@ namespace ExtendedMasterDetailPage.iOS.Renderers.MasterDetailRenderer
 
 		private UIGestureRecognizer _tapGesture;
 
-		private MasterDetailPage page;
-
 		public MasterDetailRenderer()
 		{
-			_masterController = new ChildViewController();
+		    _masterController = new ChildViewController();
 			_detailController = new ChildViewController();
 
 			_clickOffView = new UIView();

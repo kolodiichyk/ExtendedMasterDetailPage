@@ -1,6 +1,6 @@
 ﻿using UIKit;
 
-namespace Pickpack.iOS.Renderers.MasterDetailRenderer
+namespace ExtendedMasterDetailPage.iOS.Renderers.MasterDetailRenderer
 {
 	internal class ChildViewController : UIViewController
 	{
