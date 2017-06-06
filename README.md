@@ -1,6 +1,6 @@
 # ExtendedMasterDetailPage
 
-To test app switch iPhone language to switch with support RTL (arabic, hebrew e.t.c.)
+To test app switch iPhone language to language with support RTL (arabic, hebrew e.t.c.)
 
 <table width="100%">
 <tr>
@@ -8,7 +8,7 @@ To test app switch iPhone language to switch with support RTL (arabic, hebrew e.
 LTR
 </td>
 <td>
-Switch switch
+Switch language
 </td>
 <td>
 RTL
